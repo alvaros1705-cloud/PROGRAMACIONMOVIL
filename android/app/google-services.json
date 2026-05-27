@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "681647218559",
+    "project_id": "gameon-app-bb33f",
+    "storage_bucket": "gameon-app-bb33f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681647218559:android:e3dca647cccddcf503844a",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681647218559-5i8plpolfjto6aqujjl1rq33dskeffdv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_application_1",
+            "certificate_hash": "54ebe1241e747b5a8b3bae528c250b54d9eb3173"
+          }
+        },
+        {
+          "client_id": "681647218559-njagvam8bqrcob06v17uvgp2ct4k6p13.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9bVvPHegim783iSH2LdpbYoUvnBY4DpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681647218559-njagvam8bqrcob06v17uvgp2ct4k6p13.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
