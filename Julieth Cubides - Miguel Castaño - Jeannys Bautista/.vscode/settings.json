@@ -1,0 +1,3 @@
+{
+  "dart.flutterRunAdditionalArgs": ["-d", "web-server"]
+}
