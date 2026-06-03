@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "764335365710",
+    "project_id": "mindfulphone-312",
+    "storage_bucket": "mindfulphone-312.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:764335365710:android:bd530090fe93495e436d1f",
+        "android_client_info": {
+          "package_name": "com.example.mindfulphone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "764335365710-a601t0dk1jh754cv6b9kuuu8g2d60elq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKkD16jE3FAVZWB3YCoOSmBvnIvSTxrxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "764335365710-a601t0dk1jh754cv6b9kuuu8g2d60elq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
