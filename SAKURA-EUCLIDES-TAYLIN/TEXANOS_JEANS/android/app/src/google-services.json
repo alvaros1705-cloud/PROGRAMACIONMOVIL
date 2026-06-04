@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "752824588773",
+    "project_id": "texanos-jeans",
+    "storage_bucket": "texanos-jeans.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752824588773:android:8db5f7e90c2ce05b90f70c",
+        "android_client_info": {
+          "package_name": "com.texanos.jeans"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF32NZtlz8NswUjBs03Gd9EcRXwb0XuV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

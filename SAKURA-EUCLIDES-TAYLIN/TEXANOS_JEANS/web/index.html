@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Texanos Jeans - App de administración">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Texanos Jeans">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Texanos Jeans</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js';
+    import { getAuth } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js';
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyBejBSe880R8cz3YAOhMQtmAtOBC9n2ZnQ",
+      authDomain: "texanos-jeans.firebaseapp.com",
+      projectId: "texanos-jeans",
+      storageBucket: "texanos-jeans.firebasestorage.app",
+      messagingSenderId: "752824588773",
+      appId: "1:752824588773:web:3e9e6e8047dc5e5f90f70c",
+      measurementId: "G-76KLCM5JEW"
+    };
+
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    window.firebaseAuth = auth;
+  </script>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
