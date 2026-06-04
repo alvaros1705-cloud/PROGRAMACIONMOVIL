@@ -1,0 +1,15 @@
+packages:
+  - 'web'
+  - 'mobile'
+  - 'shared'
+allowBuilds:
+  '@tailwindcss/oxide': true
+  esbuild: true
+pnpm:
+  overrides:
+    metro: 0.83.1
+    metro-cache: 0.83.1
+    metro-cache-key: 0.83.1
+    metro-config: 0.83.1
+    metro-transform-worker: 0.83.1
+

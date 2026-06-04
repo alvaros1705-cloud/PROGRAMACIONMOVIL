@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Expo
+.expo/
+.expo-shared/
+
+# Mobile builds
+mobile/android/
+mobile/ios/
+*.apk
+*.ipa
+*.app
+
+# Build outputs
+dist/
+build/
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# EAS build logs & debug artifacts
+mobile/build-*.txt
+mobile/eas_build_log*.txt
+mobile/buildlist*.json
+mobile/buildlist*.txt
+mobile/buildview*.txt
+mobile/freshbuild.json
+mobile/config.json
+mobile/decode_build_log.py
+mobile/inspect_build_log.py
+mobile/log.txt
+mobile/build_log.txt
+mobile/new_build_log*.txt
+mobile/latest_build_log.txt
+mobile/f32473e2_log2.txt
+build-*.txt
+
+# Claude Code session files
+.claude/

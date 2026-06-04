@@ -1,0 +1,18 @@
+{
+  "name": "@medical-app/shared",
+  "version": "0.0.1",
+  "type": "module",
+  "exports": {
+    "./lib/supabase": "./src/lib/supabase.ts",
+    "./types": "./src/types/index.ts",
+    "./hooks/useAuth": "./src/hooks/useAuth.ts",
+    "./utils": "./src/utils/index.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.106.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "extends": "expo/tsconfig.base.json",
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "baseUrl": ".",
+    "paths": {
+      "@medical-app/shared": ["./src"],
+      "@medical-app/shared/lib/supabase": ["./src/lib/supabase"],
+      "@medical-app/shared/hooks/useAuth": ["./src/hooks/useAuth"],
+      "@medical-app/shared/utils": ["./src/utils/index"],
+      "@medical-app/shared/types": ["./src/types/index"]
+    }
+  },
+  "include": [
+    "app",
+    "src",
+    "App.tsx",
+    "app.json"
+  ]
+}

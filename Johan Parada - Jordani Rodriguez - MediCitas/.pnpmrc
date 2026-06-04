@@ -1,0 +1,5 @@
+overrides.metro=0.83.1
+overrides.metro-cache=0.83.1
+overrides.metro-cache-key=0.83.1
+overrides.metro-config=0.83.1
+overrides.metro-transform-worker=0.83.1

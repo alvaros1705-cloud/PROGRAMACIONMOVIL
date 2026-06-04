@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "c4e461fd-52fa-418e-80c4-cf8ab1ea5238"
+      }
+    },
+    "android": {
+      "package": "com.johanp19.medicalappointmentapp"
+    }
+  }
+}
