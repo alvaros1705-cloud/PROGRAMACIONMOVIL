@@ -1,0 +1,49 @@
+name: flutter_application_1
+description: "Texanos Jeans — App Unificada v3.1"
+publish_to: 'none'
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Firebase
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.3.6   # ← NUEVO: para subir imágenes al Storage
+
+  # Google Sign-In
+  google_sign_in: ^6.2.1
+
+  # Selector de imágenes (galería / cámara)  ← NUEVO
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_tx2.png"
+  adaptive_icon_background: "#0D2B45"
+  adaptive_icon_foreground: "assets/logo_tx.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo_tx.png
+    - assets/logo_tx2.png
+    - assets/jean1.png
+    - assets/jean2.png
+    - assets/jean3.png
+    - assets/jean4.png
