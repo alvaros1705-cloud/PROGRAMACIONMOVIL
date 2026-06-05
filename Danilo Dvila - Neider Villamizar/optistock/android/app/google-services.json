@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "730076195309",
+    "project_id": "optistock-26df4",
+    "storage_bucket": "optistock-26df4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730076195309:android:32d6c7cd961234a254dfe4",
+        "android_client_info": {
+          "package_name": "com.example.optistock"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDnr1wBf_pNycdJ0eZjpRygOnHich2xFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
