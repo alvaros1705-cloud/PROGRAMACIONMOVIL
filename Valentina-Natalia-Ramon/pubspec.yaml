@@ -1,0 +1,56 @@
+name: aplicacion_lectum
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  camera: ^0.12.0+1
+  google_mlkit_text_recognition: ^0.15.1
+
+  # ── UI / íconos ──────────────────────────────────────
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.8.0
+
+  # ── Archivos y almacenamiento local ──────────────────
+  file_picker: ^8.1.7
+  shared_preferences: ^2.5.3
+  url_launcher: ^6.1.10
+
+  # ── Firebase ──────────────────────────────────────
+  firebase_core: ^3.0.0        # Núcleo obligatorio de Firebase
+  firebase_auth: ^5.0.0        # Autenticación (email + Google)
+  google_sign_in: ^6.2.0       # Login real con cuenta Google
+  cloud_firestore: ^5.0.0      # Base de datos en la nube
+  syncfusion_flutter_pdf: ^33.2.4
+  archive: ^4.0.9
+  xml: ^6.6.1
+  tflite_flutter: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/asset/WhatsApp Image 2026-04-15 at 8.36.55 AM.jpeg
+    - assets/models/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/asset/app_icon_clean.svg
+  remove_alpha_ios: true
+  adaptive_icon_background: '#EAF5EA'
+  adaptive_icon_foreground: assets/asset/WhatsApp Image 2026-04-15 at 8.36.55 AM.jpeg
